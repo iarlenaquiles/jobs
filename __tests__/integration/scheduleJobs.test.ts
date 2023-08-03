@@ -1,8 +1,9 @@
 import { scheduleJobs } from "../../src/utils/scheduleJobs";
 import { calculateTotalHours } from "../../src/utils/calculateTotalHours";
+import { Job } from "../../src/interfaces/Job";
 
 describe('scheduleJobs function', () => {
-    const jobs = [
+    const jobs: Job[] = [
         {
             "ID": 1,
             "Descricao": "Importação de arquivos de fundos",
@@ -49,7 +50,7 @@ describe('scheduleJobs function', () => {
         expect(schedules.length).toBeGreaterThan(0);
         for (const schedule of schedules) {
             const totalHours = calculateTotalHours(schedule.jobs);
-            expect(totalHours).toBeLessThanOrEqual(maxHoursPerSchedule);            
+            expect(totalHours).toBeLessThanOrEqual(maxHoursPerSchedule);
         }
     });
 });

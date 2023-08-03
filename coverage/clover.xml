@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1691087630393" clover="3.2.0">
-  <project timestamp="1691087630393" name="All files">
+<coverage generated="1691088887367" clover="3.2.0">
+  <project timestamp="1691088887367" name="All files">
     <metrics statements="36" coveredstatements="36" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2" elements="45" coveredelements="45" complexity="0" loc="36" ncloc="36" packages="1" files="2" classes="2"/>
     <file name="calculateTotalHours.ts" path="/Users/iarlenaquiles/node/jobs/src/utils/calculateTotalHours.ts">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
