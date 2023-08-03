@@ -1,6 +1,6 @@
 interface Job {
     ID: number;
-    Descrição: string;
+    Descricao: string;
     "Data Máxima de conclusão": string;
     "Tempo estimado": string;
 }
